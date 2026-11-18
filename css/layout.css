@@ -1,0 +1,3 @@
+/* 横画面を基本とし、表示領域に応じて調整する。 */
+@media (orientation:portrait) and (pointer:coarse){.game-screen{display:none}.portrait-message{min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:2rem;background:#10151b}.portrait-message h1{font-size:clamp(1.3rem,7vw,2.5rem);letter-spacing:.08em}.portrait-message p{line-height:1.7}.rotate-symbol{font-size:4rem;color:#c6b8a4}}
+@media (max-height:420px) and (orientation:landscape){.game-header,.game-footer{padding:.3rem .8rem}.opponent-area{min-height:10vh}.player-area{min-height:12vh}.table-area{top:25%;bottom:13%}}
